@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTA.UI", "HTAcc\HTA.UI.csproj", "{9EC6CABB-CA09-456E-B058-25EFEC19547F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF0FF137-AFBF-457A-AF0F-B4809D325672} = {EF0FF137-AFBF-457A-AF0F-B4809D325672}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTA.Model", "HTA.Model\HTA.Model.csproj", "{EF0FF137-AFBF-457A-AF0F-B4809D325672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC6CABB-CA09-456E-B058-25EFEC19547F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC6CABB-CA09-456E-B058-25EFEC19547F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC6CABB-CA09-456E-B058-25EFEC19547F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC6CABB-CA09-456E-B058-25EFEC19547F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0FF137-AFBF-457A-AF0F-B4809D325672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0FF137-AFBF-457A-AF0F-B4809D325672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0FF137-AFBF-457A-AF0F-B4809D325672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0FF137-AFBF-457A-AF0F-B4809D325672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {429AF5AB-85AF-461E-B533-1056B194FFB1}
+	EndGlobalSection
+EndGlobal
